@@ -1,0 +1,6 @@
+.env
+data/
+backend/target/
+.idea/
+.vscode/
+evidencias/*.tmp
