@@ -133,23 +133,45 @@ Las credenciales son de prueba, solo válidas para el emulador local.
 
 ## Evidencias
 
+**Floci iniciado**
+
+![compose up](evidencias/01-docker-compose-up.png)
+
 **Floci y MySQL corriendo**
-![docker ps](evidencias/01-docker-ps.png)
+
+![docker ps](evidencias/02-docker-ps.png)
 
 **Base de datos creada en RDS (Floci)**
-![RDS](evidencias/02-rds-describe.png)
+
+![RDS](evidencias/03-rds-describe.png)
 
 **Backend conectado a la base de datos**
-![Spring Boot](evidencias/03-spring-started.png)
+
+![Spring Boot](evidencias/04-spring-started.png)
 
 **Health check**
-![Health](evidencias/04-health.png)
 
-**Operaciones CRUD**
-![CRUD](evidencias/05-crud.png)
+![Health](evidencias/10-health.png)
 
-**Datos guardados en MySQL**
-![MySQL](evidencias/06-mysql-select.png)
+**CRUD: crear**
+
+![Crear](evidencias/05-crud-crear.png)
+
+**CRUD: listar**
+
+![Listar](evidencias/06-crud-listar.png)
+
+**CRUD: actualizar**
+
+![Actualizar](evidencias/07-crud-actualizar.png)
+
+**CRUD: listar tras actualizar**
+
+![Listar actualizado](evidencias/08-crud-listar-actualizado.png)
+
+**CRUD: eliminar**
+
+![Eliminar](evidencias/09-crud-eliminar.png)
 
 ## Problemas frecuentes
 
